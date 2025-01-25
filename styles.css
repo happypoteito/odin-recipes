@@ -6,10 +6,33 @@ h1 {
   font-size: 100px;
 }
 
+.index-title {
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin: 15px;
+}
+
 p,
 ul,
 ol {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
+}
+
+.appetizers {
+  display: inline-block;
+  padding-right: 100px;
+  border-right: 2px solid black;
+}
+
+.entrees {
+  display: inline-block;
+  padding-right: 100px;
+  border-right: 2px solid black;
+}
+
+.menu-title {
+  display: inline-block;
+  margin-left: 15px;
 }
